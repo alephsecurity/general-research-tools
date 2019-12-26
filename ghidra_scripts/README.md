@@ -32,5 +32,5 @@ Only unlabeled function names are changed.
 Since Java doesn't have any (native) proper configuration setup, we use inline editing.
 
 Two errors are logged:
-- Warning when two alphanumeric values are found within one function (can happen de to inline functions)
+- Warning when two alphanumeric values are found within one function (can happen due to inline functions)
 - Warning when the value of the defined group is not alphanumeric
