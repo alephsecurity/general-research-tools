@@ -25,7 +25,7 @@ As [dropbear](https://github.com/mkj/dropbear) is open-source, we can see that w
 
 That is exactly what the script does!
 
-Following our example, we will look for everithing that matches `\w+\(\"enter (\w+)\"\);` regex, retrive the goup 1 (which defined by `(\\w+)`) and set it as function name. Of course this regex and the group will be different for each binary.
+Following our example, we will look for everithing that matches `\w+\(\"enter (\w+)\"\);` regex, retrive the goup 1 (which defined by `(\w+)`) and set it as function name. Of course this regex and the group will be different for each binary.
 
 Only unlabeled function names are changed.
 
