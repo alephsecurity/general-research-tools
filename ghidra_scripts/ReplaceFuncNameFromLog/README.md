@@ -1,9 +1,6 @@
-# ghidra_scripts
-This repository includes all Ghidra scrips that we wrote to ease the reverse engineering process
 
----
 
-### ReplaceFuncNameFromLog
+# ReplaceFuncNameFromLog
 **TL;DR**
 - Copy script into: `{GHIDRA_INSTALL_PATH}/Ghidra/Features/Base/ghidra_scripts`
 - Ghidra-> CodeBrowser-> Window -> Script Manager
