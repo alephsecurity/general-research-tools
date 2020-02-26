@@ -54,7 +54,7 @@ public class ColorAddress  extends GhidraScript {
 		
 		for (Address addr : listOfInstPtrToCollor) {
 			//Check whether we are in the correct address space
-			if (addr.compareTo(minAddress)>=0 && addr.compareTo(maxAddress) <=0){
+			if (addr.compareTo(minAddress) >= 0 && addr.compareTo(maxAddress) <= 0){
 				addresses.add(addr);
 				counter++;
 			}
